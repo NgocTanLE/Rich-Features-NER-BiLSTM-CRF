@@ -1,6 +1,9 @@
 # Rich-Features-NER-BiLSTM-CRF
 Build a Neural Network Model based on Rich Features for Named Entity Recognition
 
+### Architecture of our proposed approach
+![Architecture](./image/B-LSTM.png)
+
 ### Datasets Files format
 Word Lemma Brown_Cluster POS CHUNK NE_label
 
