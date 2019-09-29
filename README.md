@@ -3,6 +3,8 @@ Build a Neural Network Model based on Rich Features for Named Entity Recognition
 
 ### Architecture of our proposed approach
 ![Architecture](./image/B-LSTM.png)
+<br/>
+(Meaning: Here is the University of Science)
 
 ### Datasets Files format
 Word Lemma Brown_Cluster POS CHUNK NE_label
