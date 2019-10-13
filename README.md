@@ -10,10 +10,10 @@ Build a Neural Network Model based on Rich Features for Named Entity Recognition
 Word Lemma Brown_Cluster POS CHUNK NE_label
 
 ### Baseline
-python factored_bi_lstm.py -d ./data/eng.train.added -t ./data/eng.testa.added
+python factored_bi_lstm.py -d ./data/eng.train.added.txt -t ./data/eng.testa.added.txt
 
 ### Train a new Model with all features
-python factored_bi_lstm_5fea.py -d ./data/eng.train.added -t ./data/eng.testa.added
+python factored_bi_lstm_5fea.py -d ./data/eng.train.added.txt -t ./data/eng.testa.added.txt
 
 
 ### Cite our Papers
